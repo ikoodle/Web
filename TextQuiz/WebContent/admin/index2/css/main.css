@@ -1,0 +1,235 @@
+body
+{
+	margin:0;
+	padding: 0;
+}
+
+#banner
+{
+	background:rgba(0,0,0,0.2);
+	background:url(../bgd.jpg);
+	background-attachment:fixed;
+	background-reparat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	height:900px;
+}
+
+.head
+{
+    height: 70px;
+    background:rgba(0,0,0,0.5);
+    border-bottom-right-radius: 70px;
+}
+
+.head ul
+{
+    margin:0 70px auto auto;
+    List-style:none;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.head ul li
+{
+    height: 70px;
+    display:inline-block;
+    Line-height:70px;
+    float:right;
+    padding:0 15px;
+    margin: 0;
+}
+
+.head ul li a
+{
+    Line-height:50px;
+    text-decoration:none;
+    display:inline-block;
+    height:50px;
+    color:#eee;
+}
+
+.head ul li:hover
+{
+
+    background:rgba(0,0,0,0.5);
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+.head ul li.logo
+{
+    float:left;
+    color:white;
+    font-weight: 700;
+    font-size: 55px;
+    padding-left: 10px;
+    font-family: "华文仿宋";
+}
+
+
+.foot
+{
+	background:rgba(0,0,0,0.2);
+	height: 70px;
+	border-radius: 10px;
+}
+
+.foot img
+{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 10px;
+}
+
+
+.foot ul
+{
+    List-style:none;
+    margin:0;
+    color:white;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 10px;
+    float:right;
+}
+
+.foot ul li
+{
+    display:inline-block;
+    Line-height:50px;
+    margin-right:20px;
+}
+
+.foot ul li a
+{
+    Line-height:50px;
+    text-decoration:none;
+    display:inline-block;
+    height:50px;
+    color:#fff;
+}
+
+.foot ul li:hover
+{
+    background:rgba(0,0,0,0.1);
+    max-height: 70px;
+    height: 100%;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-radius: 5px;
+}
+
+.main
+{
+	height: 800px;
+	margin:50px 50px;
+}
+
+.right
+{
+	background:rgba(0,0,0,0.2);
+	width: 1100px;
+	height: 800px;
+	float: right;
+	border-radius: 30px;
+}
+
+nav
+{
+	margin-top: 50px;
+	width: 700px;
+	height: 700px;
+	background: rgba(0,0,0,0.2);
+	background-reparat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	float: left;
+	border-radius: 350px;
+}
+
+nav ul
+{
+	List-style:none;
+	margin:0;
+}
+
+nav ul li
+{
+	font-family: "宋体";
+	font-size: 30px;
+}
+
+	
+ /*img
+{
+	max-width:30%; 
+	max-height:10%;
+}
+*/
+
+table
+{
+	margin:100px auto auto auto;
+	width: 80%;
+	height: 70%;
+}
+
+table.table1{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+.table1 thead th{
+    padding:15px;
+    color:#fff;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+    border:1px solid rgba(0,0,0,0.5);
+    border-bottom:3px solid rgba(0,0,0,0.5);
+    background-color:rgba(0,0,0,0.5);
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02,rgba(0,0,0,0.5)),
+        color-stop(0.51, rgba(0,0,0,0.5)),
+        color-stop(0.87, rgba(0,0,0,0.5))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        #333 2%,
+        #333 51%,
+        #333 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+
+.table1 tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:rgba(0,0,0,0.5);
+    border: 1px solid rgba(0,0,0,0.5);
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#fff;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+
+
+
